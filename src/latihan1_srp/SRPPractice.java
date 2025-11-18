@@ -1,7 +1,6 @@
 package latihan1_srp;
 
-
-// import latihan1_srp.good.*; // Uncomment setelah refactoring selesai
+import latihan1_srp.good.*; // Uncomment setelah refactoring selesai
 
 public class SRPPractice {
     public static void main(String[] args) {
@@ -77,7 +76,7 @@ public class SRPPractice {
          */
 
         // UNCOMMENT CODE DI BAWAH SETELAH REFACTORING SELESAI
-        /*
+
         MessageValidator validator = new MessageValidator();
         MessageFormatter formatter = new MessageFormatter();
         EmailSender emailSender = new EmailSender();
@@ -97,7 +96,7 @@ public class SRPPractice {
         System.out.println("✓ Easy to maintain - Perubahan di satu area tidak affect yang lain");
         System.out.println("✓ Reusable - MessageFormatter bisa dipakai di tempat lain");
         System.out.println("✓ Low coupling - Komponen tidak saling bergantung berlebihan");
-        */
+
 
         /*
          * EKSPEKTASI OUTPUT:

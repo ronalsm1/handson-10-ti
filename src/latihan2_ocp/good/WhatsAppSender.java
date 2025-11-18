@@ -3,7 +3,7 @@ package latihan2_ocp.good;
 // Implementation untuk WhatsApp channel
 // INI CHANNEL BARU! Tapi kita tidak perlu modify NotificationService
 // Ini adalah demonstrasi OCP: OPEN for extension, CLOSED for modification
-public class WhatsappSender implements NotificationSender {
+public class WhatsAppSender implements NotificationSender {
 
     // TODO: Uncomment dan implementasikan
     // Class ini harus:

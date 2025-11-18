@@ -2,7 +2,7 @@ package latihan3_lsp;
 
 
 import latihan3_lsp.bad.ReadOnlySender;
-// import latihan3_lsp.good.*; // Uncomment setelah refactoring selesai
+import latihan3_lsp.good.*; // Uncomment setelah refactoring selesai
 
 public class LSPPractice {
     public static void main(String[] args) {
@@ -78,7 +78,7 @@ public class LSPPractice {
          */
 
         // UNCOMMENT CODE DI BAWAH SETELAH REFACTORING SELESAI
-        /*
+
         System.out.println("Testing dengan semua implementation:");
 
         NotificationSender goodSender1 = new EmailSender();
@@ -93,7 +93,7 @@ public class LSPPractice {
         System.out.println("✓ Reliable - Tidak ada surprise behavior");
         System.out.println("✓ Interchangeable - Bisa ganti child class dengan aman");
         System.out.println("✓ Safe - Polymorphic code bekerja tanpa masalah");
-        */
+
 
         /*
          * EKSPEKTASI OUTPUT:
@@ -144,7 +144,7 @@ public class LSPPractice {
     }
 
     // UNCOMMENT SETELAH REFACTORING GOOD SELESAI
-    /*
+
     private static void testSender(NotificationSender sender,
                                   String recipient, String message) {
         boolean success = sender.send(recipient, message);
@@ -152,5 +152,5 @@ public class LSPPractice {
             System.out.println("  → Success!");
         }
     }
-    */
+
 }
